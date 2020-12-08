@@ -1,0 +1,32 @@
+$dark-blue : hsl(233, 26%, 24%);
+$lime-green : hsl(136, 65%, 51%);
+$bright-cyan : hsl(192, 70%, 51%);
+$grayish-blue: hsl(233, 8%, 62%);
+$light-gray-blue : #f3f4f6;
+$very-light-grey : #fafafa;
+$white : hsl(0, 0%, 100%);
+$inner-width: 78%;
+
+
+.btn{
+    outline: none;
+    border: none
+}
+
+.request__invite{
+    border-radius: 20px;
+    color: white;
+    padding: .7rem 1.4rem;
+    background: linear-gradient(0.25turn, $lime-green, $bright-cyan);
+    font-size: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    &:hover{
+        opacity: .7;
+    }
+}
+
+.logo{
+    height: 30%;
+}
+
